@@ -36,7 +36,13 @@
   &#12288;   /usr/local/zookeeper-cluster/zookeeper-2 <br>
   &#12288;   /usr/local/zookeeper-cluster/zookeeper-3。<br>
 （5） 配置每一个 Zookeeper 的 dataDir（zoo.cfg） clientPort 分别为 2181 2182 2183
-修改/usr/local/zookeeper-cluster/zookeeper-1/conf/zoo.cfg
-
+修改/usr/local/zookeeper-cluster/zookeeper-1/conf/zoo.cfg  <br>
+1.3 集群配置 <br> 
+（1）在每个 zookeeper 的 data 目录下创建一个 myid 文件，内容分别是 1、2、3 。这个
+文件就是记录每个服务器的 ID   <br>
+（2）在每一个 zookeeper 的 zoo.cfg 配置客户端访问端口（clientPort）和集群服务器 IP 列
+表。  <br>
+1.4 启动集群 <br> 
+通过配置之后，就可以启动集群了，启动zookeeper集群，就是分别启动每个实例 <br>
 
 
