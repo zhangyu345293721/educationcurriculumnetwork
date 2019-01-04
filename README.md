@@ -32,9 +32,10 @@
 （2）Zookeeper 压缩包上传到服务器 <br>
 （3）将 Zookeeper 解压 ，创建 data 目录 ，将 conf 下 zoo_sample.cfg 文件改名为 zoo.cfg  <br>
 （4）建立/usr/local/zookeeper-cluster 目录，将解压后的 Zookeeper 复制到以下三个目录 <br>
-/usr/local/zookeeper-cluster/zookeeper-1
-/usr/local/zookeeper-cluster/zookeeper-2
-/usr/local/zookeeper-cluster/zookeeper-3。<br>
-1.2 准备工作<br>
+  &#12288;   /usr/local/zookeeper-cluster/zookeeper-1 <br>
+  &#12288;   /usr/local/zookeeper-cluster/zookeeper-2 <br>
+  &#12288;   /usr/local/zookeeper-cluster/zookeeper-3。<br>
+
+
 
 
