@@ -52,6 +52,11 @@
 </dubbo:registry>   <br>
 <li>搭建solr集群</li>
   &#12288;   &#12288; SolrCloud 是基于 Solr 和 Zookeeper 的分布式搜索方案，它的主要思想是使用Zookeeper 作为集群的配置信息中心。
+<li>zookeeper的优势</li>
+1）集中式的配置信息  <br>
+2）自动容错 <br>
+3）近实时搜索  <br>
+4）查询时自动负载均衡  <br>
 
 
 
