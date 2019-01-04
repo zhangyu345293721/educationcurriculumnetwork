@@ -47,7 +47,7 @@
 通过配置之后，就可以启动集群了，启动zookeeper集群，就是分别启动每个实例 <br>
 <li>Dubbox 连接 zookeeper 集群</li>
 <!-- 指定注册中心地址 -->  <br>
-<dubbo:registry          <br>
+<dubbo:registry >        <br>
    &#12288; &#12288; protocol="zookeeper"     <br>
    &#12288; &#12288; address="192.168.25.140:2181,192.168.25.140:2182,192.168.25.140:2183">  <br>
 </dubbo:registry>   <br>
