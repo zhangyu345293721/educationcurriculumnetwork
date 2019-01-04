@@ -26,5 +26,15 @@
 <li>部署项目</li> 
 1.搭载Zookeeper集群 <br>
 1.1 搭载要求<br>
-&#12288;&#12288;真实的集群是需要部署在不同的服务器上的，但是在我们测试时同时启动十几个虚拟机内存会吃不消，所以我们通常会搭建伪集群，也就是把所有的服务都搭在一台虚拟机上，用端口进行区分。
+&#12288;&#12288;真实的集群是需要部署在不同的服务器上的，但是在我们测试时同时启动十几个虚拟机内存会吃不消，所以我们通常会搭建伪集群，也就是把所有的服务都搭在一台虚拟机上，用端口进行区分重新部署一台虚拟机作为我们搭建集群的测试服务器。<br>
+1.2准备工作<br>
+（1）安装 JDK <br>
+（2）Zookeeper 压缩包上传到服务器 <br>
+（3）将 Zookeeper 解压 ，创建 data 目录 ，将 conf 下 zoo_sample.cfg 文件改名为 zoo.cfg  <br>
+（4）建立/usr/local/zookeeper-cluster 目录，将解压后的 Zookeeper 复制到以下三个目录 <br>
+/usr/local/zookeeper-cluster/zookeeper-1
+/usr/local/zookeeper-cluster/zookeeper-2
+/usr/local/zookeeper-cluster/zookeeper-3。<br>
+1.2 准备工作<br>
+
 
