@@ -15,7 +15,7 @@
 <li>框架组合</li>
 &#12288;&#12288;教育课程网采用当前流行的前后端编程架构。后端框架采用 Spring +SpringMVC+mybatis +Dubbo+Zookeepper；前端采用 angularJS + Bootstrap。
 <li>教育课程网架构图</li>
-![](picture/1.png)
+![image](https://github.com/872822645/danxuankuangDemo/blob/master/1.jpg)
 <li>开发环境</li>
 &#12288;&#12288;JDK1.8、MySql5.7、Eclipse、SSM Framework、 Dubbo 、Redis、Solr、AngularJS、ActiveMQ、SpringSecurity、SpringBoot
 <li>负责模块</li>
@@ -24,5 +24,5 @@
 3.网络课程搜索功能（关键字搜索，分类列表，品牌规则过滤查询，分页查询，排序，更新索引库）<br> 
 4.网络课程秒杀功能（倒计时读秒，秒杀下单，秒杀支付，超时处理）<br>
 
-![image](https://github.com/872822645/danxuankuangDemo/blob/master/1.jpg)
+
 
