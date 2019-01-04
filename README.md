@@ -1,4 +1,4 @@
-# education-curriculum-network (教育课程网)<hr>  <h4>说明:这是我在公司参与的项目，由于保密，只上传我开发的模块，每个模块独立部署，不影响阅读</h4>
+# education-curriculum-network (教育课程网)<hr>  <h4>说明:这是我在公司参与的项目，由于保密，只上传后台代码</h4>
 教育课程网 <br>
 <li>简介</li>
 &#12288;&#12288;教育课程网是一个基于 B2B2C 模式的O2O课程商城，分为网站前台、管理后台、培训机构管理后台三个子系统.网站采用补习机构入驻的模式，其机构向平台提交入驻申请，网站平台对补习机构进行资质审核；审核通过后，补习机构拥有独立的管理后台有添加修改课程的权限。<br>
@@ -18,7 +18,7 @@
 ![image](https://github.com/zhangyu345293721/education-curriculum-network/blob/master/picture/1.png)
 <li>开发环境</li>
 &#12288;&#12288;JDK1.8、MySql5.7、Eclipse、SSM Framework、 Dubbo 、Redis、Solr、AngularJS、ActiveMQ、SpringSecurity、SpringBoot
-<li>负责模块</li>
+<li>主要负责模块</li>
 1.用户注册（阿里大于短信微服务），用户登录（单点登录系统CAS）模块<br>
 2.课程管理功能（课程审核导入索引，课程删除移除索引，课程审核执行静态网页，课程删除详细页）<br>
 3.网络课程搜索功能（关键字搜索，分类列表，品牌规则过滤查询，分页查询，排序，更新索引库）<br> 
