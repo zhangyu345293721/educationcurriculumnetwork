@@ -24,42 +24,4 @@
 2.课程管理功能（课程审核导入索引，课程删除移除索引，课程审核执行静态网页，课程删除详细页）<br>
 3.网络课程搜索功能（关键字搜索，分类列表，品牌规则过滤查询，分页查询，排序，更新索引库）<br> 
 4.网络课程秒杀功能（倒计时读秒，秒杀下单，秒杀支付，超时处理）<br>
-<li>部署项目</li> 
-1.搭载Zookeeper集群 <br>
-1.1 搭载要求<br>
-&#12288;&#12288;真实的集群是需要部署在不同的服务器上的，但是在我们测试时同时启动十几个虚拟机内存会吃不消，所以我们通常会搭建伪集群，也就是把所有的服务都搭在一台虚拟机上，用端口进行区分重新部署一台虚拟机作为我们搭建集群的测试服务器。<br>
-1.2准备工作<br>
-（1）安装 JDK <br>
-（2）Zookeeper 压缩包上传到服务器 <br>
-（3）将 Zookeeper 解压 ，创建 data 目录 ，将 conf 下 zoo_sample.cfg 文件改名为 zoo.cfg  <br>
-（4）建立/usr/local/zookeeper-cluster 目录，将解压后的 Zookeeper 复制到以下三个目录 <br>
-  &#12288;   /usr/local/zookeeper-cluster/zookeeper-1 <br>
-  &#12288;   /usr/local/zookeeper-cluster/zookeeper-2 <br>
-  &#12288;   /usr/local/zookeeper-cluster/zookeeper-3。<br>
-（5） 配置每一个 Zookeeper 的 dataDir（zoo.cfg） clientPort 分别为 2181 2182 2183
-修改/usr/local/zookeeper-cluster/zookeeper-1/conf/zoo.cfg  <br>
-1.3 集群配置 <br> 
-（1）在每个 zookeeper 的 data 目录下创建一个 myid 文件，内容分别是 1、2、3 。这个
-文件就是记录每个服务器的 ID   <br>
-（2）在每一个 zookeeper 的 zoo.cfg 配置客户端访问端口（clientPort）和集群服务器 IP 列
-表。  <br>
-1.4 启动集群 <br> 
-通过配置之后，就可以启动集群了，启动zookeeper集群，就是分别启动每个实例 <br>
-<li>Dubbox 连接 zookeeper 集群</li>
-<dubbo:registry > 
-   &#12288; &#12288; protocol="zookeeper"     <br>
-   &#12288; &#12288; address="192.168.25.140:2181,192.168.25.140:2182,192.168.25.140:2183">  <br>
-</dubbo:registry>   <br>
-<li>搭建solr集群</li>
-  &#12288;   &#12288; SolrCloud 是基于 Solr 和 Zookeeper 的分布式搜索方案，它的主要思想是使用Zookeeper 作为集群的配置信息中心。
-<li>zookeeper的优势</li>
-1）集中式的配置信息  <br>
-2）自动容错 <br>
-3）近实时搜索  <br>
-4）查询时自动负载均衡  <br>
- <li>Zookeeper 作为集群的管理工具 </li>
-1、集群管理：容错、负载均衡。
-2、配置文件的集中管理
-
-
-
+后记：关于项目的部署，将在另外的文档中讲到！
