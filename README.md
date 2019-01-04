@@ -50,7 +50,8 @@
    &#12288; &#12288; protocol="zookeeper"     <br>
    &#12288; &#12288; address="192.168.25.140:2181,192.168.25.140:2182,192.168.25.140:2183">  <br>
 </dubbo:registry>   <br>
-
+<li>搭建solr集群</li>
+  &#12288;   &#12288; SolrCloud 是基于 Solr 和 Zookeeper 的分布式搜索方案，它的主要思想是使用Zookeeper 作为集群的配置信息中心。
 
 
 
