@@ -35,7 +35,8 @@
   &#12288;   /usr/local/zookeeper-cluster/zookeeper-1 <br>
   &#12288;   /usr/local/zookeeper-cluster/zookeeper-2 <br>
   &#12288;   /usr/local/zookeeper-cluster/zookeeper-3。<br>
-
+（5） 配置每一个 Zookeeper 的 dataDir（zoo.cfg） clientPort 分别为 2181 2182 2183
+修改/usr/local/zookeeper-cluster/zookeeper-1/conf/zoo.cfg
 
 
 
