@@ -14,7 +14,7 @@
 &#12288;&#12288;SOA 是 Service-Oriented Architecture 的首字母简称，它是一种支持面向服务的架构样式。<br>
 <li>框架组合</li>
 &#12288;&#12288;教育课程网采用当前流行的前后端编程架构。后端框架采用 Spring +SpringMVC+mybatis +Dubbo+Zookeepper；前端采用 angularJS + Bootstrap。
-<li>教育课程网架构图</li>
+<li>教育课程网架构图</li> <br>
 ![image](https://github.com/872822645/danxuankuangDemo/blob/master/1.jpg)
 <li>开发环境</li>
 &#12288;&#12288;JDK1.8、MySql5.7、Eclipse、SSM Framework、 Dubbo 、Redis、Solr、AngularJS、ActiveMQ、SpringSecurity、SpringBoot
