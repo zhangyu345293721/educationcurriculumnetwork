@@ -18,9 +18,9 @@
 ![image](https://github.com/zhangyu345293721/education-curriculum-network/blob/master/picture/1.png)
 <li>开发环境</li>
 &#12288;&#12288;JDK1.8、MySql5.7、Eclipse、SSM Framework、 Dubbo 、Redis、Solr、AngularJS、ActiveMQ、SpringSecurity、SpringBoot
-<li>主要负责模块</li>
+<li>主要功能</li>
 1.用户注册（阿里大于短信微服务），用户登录（单点登录系统CAS）模块<br>
 2.课程管理功能（课程审核导入索引，课程删除移除索引，课程审核执行静态网页，课程删除详细页）<br>
 3.网络课程搜索功能（关键字搜索，分类列表，品牌规则过滤查询，分页查询，排序，更新索引库）<br> 
 4.网络课程秒杀功能（倒计时读秒，秒杀下单，秒杀支付，超时处理）<br>
-后记：关于项目的部署，将在另外的文档中讲到！
+
