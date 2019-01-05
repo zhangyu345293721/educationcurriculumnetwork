@@ -146,7 +146,7 @@
 						<div class="tbar-panel-content J-panel-content">
 							<div id="J-cart-tips" class="tbar-tipbox hide">
 								<div class="tip-inner">
-									<span class="tip-text">还没有登录，登录后商品将被保存</span>
+									<span class="tip-text">还没有登录，登录后课程网将被保存</span>
 									<a href="#none" class="tip-btn J-login">登录</a>
 								</div>
 							</div>
@@ -160,7 +160,7 @@
 					<!-- 小计 -->
 					<div id="cart-footer" class="tbar-panel-footer J-panel-footer">
 						<div class="tbar-checkout">
-							<div class="jtc-number"> <strong class="J-count" id="cart-number">0</strong>件商品 </div>
+							<div class="jtc-number"> <strong class="J-count" id="cart-number">0</strong>件课程网 </div>
 							<div class="jtc-sum"> 共计：<strong class="J-total" id="cart-sum">¥0</strong> </div>
 							<a class="jtc-btn J-btn" href="#none" target="_blank">去购物车结算</a>
 						</div>
@@ -204,7 +204,7 @@
 										<a href="#" target="_blank" class="price">￥498.00</a>
 									</li>-->
 								</ul>
-								<a href="#" class="history-bottom-more" target="_blank">查看更多足迹商品 &gt;&gt;</a>
+								<a href="#" class="history-bottom-more" target="_blank">查看更多足迹课程网 &gt;&gt;</a>
 							</div>
 						</div>
 					</div>

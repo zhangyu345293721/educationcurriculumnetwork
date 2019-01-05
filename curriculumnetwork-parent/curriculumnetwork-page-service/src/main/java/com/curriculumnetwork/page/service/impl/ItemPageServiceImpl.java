@@ -30,7 +30,7 @@ import freemarker.template.MalformedTemplateNameException;
 import freemarker.template.Template;
 import freemarker.template.TemplateNotFoundException;
 /*
- * 商品服务表
+ * 课程网服务表
  */
 @Service
 public class ItemPageServiceImpl implements ItemPageService {
@@ -62,13 +62,13 @@ public class ItemPageServiceImpl implements ItemPageService {
 			Template template = configuration.getTemplate("item.ftl");
 			// 创建数据模型
 			Map dataModel = new HashMap<>();
-			// 1.商品主表数据
+			// 1.课程网主表数据
 			TbGoods goods = goodsMapper.selectByPrimaryKey(goodsId);
 			dataModel.put("goods", goods);
-			// 2.商品扩展表数据
+			// 2.课程网扩展表数据
 			TbGoodsDesc goodsDesc = goodsDescMapper.selectByPrimaryKey(goodsId);
 			dataModel.put("goodsDesc", goodsDesc);
-			// 3.读取商品分类
+			// 3.读取课程网分类
 
 			String itemCat1 = itemCatMapper.selectByPrimaryKey(
 					goods.getCategory1Id()).getName();

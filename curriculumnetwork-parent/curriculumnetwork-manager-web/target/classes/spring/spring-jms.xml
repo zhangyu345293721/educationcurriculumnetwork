@@ -35,12 +35,12 @@
 	</bean>  
 
 	
-	<!--这个是订阅模式 生成商品详细页-->  
+	<!--这个是订阅模式 生成课程网详细页-->  
 	<bean id="topicPageDestination" class="org.apache.activemq.command.ActiveMQTopic">  
 	    <constructor-arg value="curriculumnetwork_topic_page"/>  
 	</bean>  
 	
-	<!--这个是订阅模式 删除商品详细页-->  
+	<!--这个是订阅模式 删除课程网详细页-->  
 	<bean id="topicPageDeleteDestination" class="org.apache.activemq.command.ActiveMQTopic">  
 	    <constructor-arg value="curriculumnetwork_topic_page_delete"/>  
 	</bean>  

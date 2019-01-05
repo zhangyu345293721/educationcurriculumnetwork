@@ -12,7 +12,7 @@ import com.curriculumnetwork.pojo.group.Cart;
 public interface CartService {
 
 	/**
-	 * 添加商品到购物车
+	 * 添加课程网到购物车
 	 * @param list
 	 * @param itemId
 	 * @param num

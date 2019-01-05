@@ -8,15 +8,15 @@ import com.curriculumnetwork.pojo.TbGoodsDesc;
 import com.curriculumnetwork.pojo.TbItem;
 
 /**
- * 商品的组合实体类
+ * 课程网的组合实体类
  * @author jt
  *
  */
 
 public class Goods implements Serializable{
 	
-	private TbGoods goods; // 商品信息
-	private TbGoodsDesc goodsDesc; // 商品扩展信息
+	private TbGoods goods; // 课程网信息
+	private TbGoodsDesc goodsDesc; // 课程网扩展信息
 	
 	private List<TbItem> itemList; // SKU的列表信息
 	public TbGoods getGoods() {

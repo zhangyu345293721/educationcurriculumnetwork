@@ -3,14 +3,14 @@ package com.curriculumnetwork.page.service;
 public interface ItemPageService {
 
 	/**
-	 * 生成商品详细页
+	 * 生成课程网详细页
 	 * @param goodsId
 	 * @return
 	 */
 	public boolean genItemHtml(Long goodsId);
 	
 	/**
-	 * 删除商品详细页
+	 * 删除课程网详细页
 	 * @param goodsIds
 	 * @return
 	 */

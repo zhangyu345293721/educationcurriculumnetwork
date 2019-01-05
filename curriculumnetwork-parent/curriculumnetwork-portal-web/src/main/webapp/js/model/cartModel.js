@@ -4,7 +4,7 @@
  */
 var cartModel = {
 
-    // 加入购物车商品
+    // 加入购物车课程网
     add : function (data, success) {
         czHttp.getJSON('../data/success.json', data, function (responseData) {
             if(responseData.isok){
@@ -13,7 +13,7 @@ var cartModel = {
         });
     },
 
-    // 删除购物车商品
+    // 删除购物车课程网
     remove : function (data, success) {
         czHttp.getJSON('../data/success.json', data, function (responseData) {
             if(responseData.isok){
@@ -22,7 +22,7 @@ var cartModel = {
         });
     },
 
-    // 修改商品数量
+    // 修改课程网数量
     changeNumber : function (data, success) {
         czHttp.getJSON('../data/success.json', data, function (responseData) {
             if(responseData.isok){

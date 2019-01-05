@@ -74,8 +74,8 @@
 									<i class="shopnum">0</i>
 								</a>
 								<div class="clearfix shopcarlist" id="shopcarlist" style="display:none">
-									<p>"啊哦，你的购物车还没有商品哦！"</p>
-									<p>"啊哦，你的购物车还没有商品哦！"</p>
+									<p>"啊哦，你的购物车还没有课程网哦！"</p>
+									<p>"啊哦，你的购物车还没有课程网哦！"</p>
 								</div>
 							</div>
 						</div>
@@ -84,7 +84,7 @@
 
 				<div class="yui3-g NavList">
 					<div class="yui3-u Left all-sort">
-						<h4>全部商品分类</h4>
+						<h4>全部课程网分类</h4>
 					</div>
 					<div class="yui3-u Center navArea">
 						<ul class="nav">

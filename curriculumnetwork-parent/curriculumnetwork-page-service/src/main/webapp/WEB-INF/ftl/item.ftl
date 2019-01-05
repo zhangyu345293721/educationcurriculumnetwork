@@ -114,7 +114,7 @@
 							<div class="fl fix-width">
 								<i class="red-bg">加价购</i>
 								<em class="t-gray">满999.00另加20.00元，或满1999.00另加30.00元，或满2999.00另加40.00元，即可在购物车换
-购热销商品</em>
+购热销课程网</em>
 							</div>
 						</div>
 					</div>
@@ -132,7 +132,7 @@
 								<i>配 送 至</i>
 							</div>
 							<div class="fl fix-width">
-								<em class="t-gray">满999.00另加20.00元，或满1999.00另加30.00元，或满2999.00另加40.00元，即可在购物车换购热销商品</em>
+								<em class="t-gray">满999.00另加20.00元，或满1999.00另加30.00元，或满2999.00另加40.00元，即可在购物车换购热销课程网</em>
 							</div>
 						</div>
 					</div>
@@ -354,7 +354,7 @@
 								</ul>
 							</div>
 							<div class="fr result">
-								<div class="num">已选购0件商品</div>
+								<div class="num">已选购0件课程网</div>
 								<div class="price-tit"><strong>套餐价</strong></div>
 								<div class="price">￥5299</div>
 								<button class="sui-btn  btn-danger addshopcar">加入购物车</button>
@@ -365,7 +365,7 @@
 						<ul class="sui-nav nav-tabs tab-wraped">
 							<li class="active">
 								<a href="#one" data-toggle="tab">
-									<span>商品介绍</span>
+									<span>课程网介绍</span>
 								</a>
 							</li>
 							<li>
@@ -380,7 +380,7 @@
 							</li>
 							<li>
 								<a href="#four" data-toggle="tab">
-									<span>商品评价</span>
+									<span>课程网评价</span>
 								</a>
 							</li>
 							<li>
@@ -410,7 +410,7 @@
 								<p>${goodsDesc.saleService}</p>
 							</div>
 							<div id="four" class="tab-pane">
-								<p>商品评价</p>
+								<p>课程网评价</p>
 							</div>
 							<div id="five" class="tab-pane">
 								<p>手机社区</p>

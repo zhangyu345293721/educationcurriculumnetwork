@@ -124,7 +124,7 @@ public class GoodsController {
 				}
 			});
 			
-			//删除每个服务器上的商品详细页
+			//删除每个服务器上的课程网详细页
 			jmsTemplate.send(topicPageDeleteDestination, new MessageCreator() {
 				
 				@Override
@@ -162,7 +162,7 @@ public class GoodsController {
 	private Destination queueSolrDestination;//用于导入solr索引库的消息目标（点对点）
 	
 	@Autowired
-	private Destination topicPageDestination;//用于生成商品详细页的消息目标(发布订阅)
+	private Destination topicPageDestination;//用于生成课程网详细页的消息目标(发布订阅)
 	
 	@RequestMapping("/updateStatus")
 	public Result updateStatus(Long[] ids,String status){
@@ -186,7 +186,7 @@ public class GoodsController {
 					}
 				});
 				
-				//****生成商品详细页
+				//****生成课程网详细页
 				for(final Long goodsId:ids){
 					//	itemPageService.genItemHtml(goodsId);
 					jmsTemplate.send(topicPageDestination, new MessageCreator() {

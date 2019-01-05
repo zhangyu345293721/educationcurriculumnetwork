@@ -20,13 +20,13 @@ public class CartServiceImpl implements CartService {
 	@Override
 	public List<Cart> addGoodsToCartList(List<Cart> cartList, Long itemId, Integer num) {
 		
-		//1.根据skuID查询商品明细SKU的对象
+		//1.根据skuID查询课程网明细SKU的对象
 		TbItem item = itemMapper.selectByPrimaryKey(itemId);
 		if(item==null){
-			throw new RuntimeException("商品不存在");
+			throw new RuntimeException("课程网不存在");
 		}
 		if(!item.getStatus().equals("1")){
-			throw new RuntimeException("商品状态不合法");
+			throw new RuntimeException("课程网状态不合法");
 		}		
 		//2.根据SKU对象得到商家ID
 		String sellerId = item.getSellerId();//商家ID
@@ -49,7 +49,7 @@ public class CartServiceImpl implements CartService {
 			cartList.add(cart);
 			
 		}else{//5.如果购物车列表中存在该商家的购物车
-			// 判断该商品是否在该购物车的明细列表中存在
+			// 判断该课程网是否在该购物车的明细列表中存在
 			TbOrderItem orderItem = searchOrderItemByItemId(cart.getOrderItemList(),itemId);
 			if(orderItem==null){
 				//5.1  如果不存在  ，创建新的购物车明细对象，并添加到该购物车的明细列表中
