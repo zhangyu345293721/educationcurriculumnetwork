@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pinyougou-page-interface-0.0.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/curriculumnetwork-parent/curriculumnetwork-page-interface/target/pinyougou-page-interface-0.0.3-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
