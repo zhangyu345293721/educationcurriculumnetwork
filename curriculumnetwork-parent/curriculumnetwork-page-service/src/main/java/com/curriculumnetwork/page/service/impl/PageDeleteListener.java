@@ -5,30 +5,38 @@ import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.ObjectMessage;
 import javax.jms.TextMessage;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import com.curriculumnetwork.page.service.ItemPageService;
 
-// 网页删除监听器
+import java.util.logging.Logger;
+
+
+/**
+ * 网页删除监听器
+ * @author:zhangyu
+ */
 
 @Component
 public class PageDeleteListener implements MessageListener {
 
-	@Autowired
-	private ItemPageService itemPageService;
-	@Override
-	public void onMessage(Message message) {
+    private static Logger logger = LoggerFactory.getLogger(PageDeleteListener.class);
 
-		ObjectMessage objectMessage = (ObjectMessage) message;
-		try {
-			Long[] goodsIds = (Long[]) objectMessage.getObject();
-			System.out.println("接收到消息:" + goodsIds);
-			boolean b = itemPageService.deleteItemHtml(goodsIds);
-			System.out.println("删除网页：" + b);
+    @Autowired
+    private ItemPageService itemPageService;
 
-		} catch (JMSException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
+    @Override
+    public void onMessage(Message message) {
+
+        ObjectMessage objectMessage = (ObjectMessage) message;
+        try {
+            Long[] goodsIds = (Long[]) objectMessage.getObject();
+            logger.info("接收到消息:" + goodsIds);
+            boolean b = itemPageService.deleteItemHtml(goodsIds);
+            logger.info("删除网页：" + b);
+        } catch (Exception e) {
+            logger.info(e.getMessage());
+        }
+    }
 }
