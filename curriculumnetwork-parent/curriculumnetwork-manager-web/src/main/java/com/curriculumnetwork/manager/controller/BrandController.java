@@ -30,12 +30,7 @@ public class BrandController {
 	public List<TbBrand> findAll(){
 		return brandService.findAll();
 	}
-	
-/*	@RequestMapping("/findByPage")
-	public PageResult findByPage(int page,int rows){
-		return brandService.findByPage(page, rows);
-	}*/
-	
+
 	@RequestMapping("/save")
 	public Result save(@RequestBody TbBrand brand){
 		try{

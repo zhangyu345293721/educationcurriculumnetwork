@@ -1,5 +1,10 @@
 package com.curriculumnetwork.page.service;
 
+/**
+ * 商品页面服务
+ *
+ * @author : zhangyu
+ */
 public interface ItemPageService {
 
     /**

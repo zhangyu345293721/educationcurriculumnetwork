@@ -9,18 +9,19 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.curriculumnetwork.content.service.ContentService;
 import com.curriculumnetwork.pojo.TbContent;
 
-/*
+/**
  * 通过类型化id查找目录
+ * @author:zhangyu
  */
 @RestController
 @RequestMapping("/content")
 public class ContentController {
 
-	@Reference
-	private ContentService contentService;
-	
-	@RequestMapping("/findByCategoryId")
-	public List<TbContent> findByCategoryId(Long categoryId){
-		return contentService.findByCategoryId(categoryId);
-	}
+    @Reference
+    private ContentService contentService;
+
+    @RequestMapping("/findByCategoryId")
+    public List<TbContent> findByCategoryId(Long categoryId) {
+        return contentService.findByCategoryId(categoryId);
+    }
 }

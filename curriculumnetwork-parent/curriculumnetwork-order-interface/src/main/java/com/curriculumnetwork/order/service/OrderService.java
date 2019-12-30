@@ -6,7 +6,7 @@ import com.curriculumnetwork.pojo.TbPayLog;
 import entity.PageResult;
 /**
  * 服务层接口
- * @author Administrator
+ * @author zhangyu
  *
  */
 public interface OrderService {
