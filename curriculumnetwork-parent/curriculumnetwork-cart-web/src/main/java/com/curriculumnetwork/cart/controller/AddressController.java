@@ -13,7 +13,7 @@ import entity.PageResult;
 import entity.Result;
 /**
  * controller
- * @author Administrator
+ * @author ty
  *
  */
 @RestController
@@ -118,5 +118,4 @@ public class AddressController {
 		String username = SecurityContextHolder.getContext().getAuthentication().getName();
 		return addressService.findListByUserId(username);		
 	}
-	
 }
