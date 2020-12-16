@@ -7,7 +7,11 @@ import org.springframework.web.multipart.MultipartFile;
 
 import entity.Result;
 import util.FastDFSClient;
-
+/**
+ * controller
+ *
+ * @author zhangyu
+ */
 @RestController
 @RequestMapping("/upload")
 public class UploadController {

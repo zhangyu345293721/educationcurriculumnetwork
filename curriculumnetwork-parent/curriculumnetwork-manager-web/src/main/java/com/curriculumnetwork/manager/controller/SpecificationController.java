@@ -15,7 +15,7 @@ import entity.PageResult;
 import entity.Result;
 /**
  * controller
- * @author Administrator
+ * @author zhangyu
  *
  */
 @RestController

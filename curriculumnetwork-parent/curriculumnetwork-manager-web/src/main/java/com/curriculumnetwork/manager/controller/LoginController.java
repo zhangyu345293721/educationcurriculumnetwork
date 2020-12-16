@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 运营商登录的控制层的类
- * @author jt
+ * @author zhangyu
  *
  */
 @RestController
