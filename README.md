@@ -14,7 +14,7 @@
 <li>教育课程网架构图</li>
 
 ![image](https://github.com/zhangyu345293721/education-curriculum-network/blob/master/picture/1.png)
-<li>开发环境</li><br>
+<li>开发环境</li>
 &#12288;&#12288;JDK1.8、MySql5.7、SSM Framework、 Dubbo 、Redis、Solr、AngularJS、ActiveMQ、SpringSecurity、SpringBoot
 <li>主要功能</li>
 1.用户注册（阿里大于短信微服务），用户登录（单点登录系统CAS）模块<br>
