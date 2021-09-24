@@ -10,7 +10,7 @@
 3.商家管理后台<br>
 &#12288;&#12288;入驻的商家进行管理的后台，主要功能是对课程的管理以及订单查询统计、资金结算等功能。<br>
 <li>框架组合</li>
-&#12288;&#12288;教育课程网采用当前流行的前后端编程架构。后端框架采用 Spring +SpringMVC+Mybatis +Dubbo+Zookeepper；<br> &#12288;&#12288; 前端采用 angularJS + Bootstrap。
+&#12288;&#12288;教育课程网采用当前流行的前后端编程架构。后端框架采用 Spring +SpringMVC+Mybatis +Dubbo+Zookeepper；<br> &#12288;&#12288;前端采用 angularJS + Bootstrap。
 <li>教育课程网架构图</li>
 
 ![image](https://github.com/zhangyu345293721/education-curriculum-network/blob/master/picture/1.png)
