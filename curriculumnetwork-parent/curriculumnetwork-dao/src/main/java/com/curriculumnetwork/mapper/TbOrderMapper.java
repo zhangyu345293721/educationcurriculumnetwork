@@ -5,6 +5,10 @@ import com.curriculumnetwork.pojo.TbOrderExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbOrderMapper {
     int countByExample(TbOrderExample example);
 

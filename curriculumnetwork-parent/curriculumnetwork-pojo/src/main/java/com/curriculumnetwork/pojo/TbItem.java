@@ -8,12 +8,16 @@ import java.util.Map;
 import org.apache.solr.client.solrj.beans.Field;
 import org.springframework.data.solr.core.mapping.Dynamic;
 
-public class TbItem implements Serializable{
-	
-	@Field
+/**
+ * @author zhangyu
+ * pojo
+ */
+public class TbItem implements Serializable {
+
+    @Field
     private Long id;
 
-	@Field("item_title")
+    @Field("item_title")
     private String title;
 
     private String sellPoint;
@@ -64,23 +68,22 @@ public class TbItem implements Serializable{
 
     @Field("item_seller")
     private String seller;
-    
-   
+
+
     @Dynamic
     @Field("item_spec_*")
-    private Map<String,String> specMap;
-    
+    private Map<String, String> specMap;
+
     public Map<String, String> getSpecMap() {
-		return specMap;
-	}
+        return specMap;
+    }
 
-	public void setSpecMap(Map<String, String> specMap) {
-		this.specMap = specMap;
-	}
-	
-    
+    public void setSpecMap(Map<String, String> specMap) {
+        this.specMap = specMap;
+    }
 
-	public Long getId() {
+
+    public Long getId() {
         return id;
     }
 
@@ -247,7 +250,7 @@ public class TbItem implements Serializable{
     public void setBrand(String brand) {
         this.brand = brand == null ? null : brand.trim();
     }
-    
+
 
     public String getSpec() {
         return spec;

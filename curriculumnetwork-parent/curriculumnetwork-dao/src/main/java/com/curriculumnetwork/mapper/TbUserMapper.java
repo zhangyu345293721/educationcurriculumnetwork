@@ -5,6 +5,10 @@ import com.curriculumnetwork.pojo.TbUserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbUserMapper {
     int countByExample(TbUserExample example);
 

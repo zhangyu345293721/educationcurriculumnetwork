@@ -2,11 +2,24 @@ package com.curriculumnetwork.pojo;
 
 import java.io.Serializable;
 
-public class TbBrand implements Serializable{
+/**
+ * @author zhangyu
+ * pojo
+ */
+public class TbBrand implements Serializable {
+    /**
+     * 品牌id
+     */
     private Long id;
 
+    /**
+     * 品牌名
+     */
     private String name;
 
+    /**
+     * 第一个字符
+     */
     private String firstChar;
 
     public Long getId() {

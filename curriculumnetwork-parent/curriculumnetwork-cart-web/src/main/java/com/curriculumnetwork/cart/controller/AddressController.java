@@ -13,7 +13,7 @@ import entity.PageResult;
 import entity.Result;
 /**
  * controller
- * @author ty
+ * @author zhangyu
  *
  */
 @RestController

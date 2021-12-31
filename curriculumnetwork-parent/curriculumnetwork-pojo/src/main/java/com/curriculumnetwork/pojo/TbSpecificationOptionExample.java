@@ -2,7 +2,10 @@ package com.curriculumnetwork.pojo;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbSpecificationOptionExample {
     protected String orderByClause;
 

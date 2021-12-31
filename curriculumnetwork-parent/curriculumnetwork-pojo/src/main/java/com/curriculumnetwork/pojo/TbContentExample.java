@@ -3,6 +3,10 @@ package com.curriculumnetwork.pojo;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbContentExample {
     protected String orderByClause;
 

@@ -8,6 +8,10 @@ import org.apache.ibatis.annotations.Param;
 import com.curriculumnetwork.pojo.TbSpecification;
 import com.curriculumnetwork.pojo.TbSpecificationExample;
 
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbSpecificationMapper {
     int countByExample(TbSpecificationExample example);
 

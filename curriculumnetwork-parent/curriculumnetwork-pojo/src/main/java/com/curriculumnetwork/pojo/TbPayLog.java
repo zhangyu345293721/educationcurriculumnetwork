@@ -2,7 +2,10 @@ package com.curriculumnetwork.pojo;
 
 import java.io.Serializable;
 import java.util.Date;
-
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbPayLog implements Serializable{
     private String outTradeNo;
 

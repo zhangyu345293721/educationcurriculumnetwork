@@ -3,7 +3,10 @@ package com.curriculumnetwork.pojo;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbGoodsExample {
     protected String orderByClause;
 

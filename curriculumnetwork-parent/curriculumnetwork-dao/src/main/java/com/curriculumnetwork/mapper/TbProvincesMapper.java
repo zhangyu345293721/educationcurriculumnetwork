@@ -5,6 +5,10 @@ import com.curriculumnetwork.pojo.TbProvincesExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbProvincesMapper {
     int countByExample(TbProvincesExample example);
 

@@ -2,7 +2,10 @@ package com.curriculumnetwork.pojo;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbGoods implements Serializable{
     private Long id;
 

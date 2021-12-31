@@ -5,6 +5,10 @@ import com.curriculumnetwork.pojo.TbGoodsExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbGoodsMapper {
     int countByExample(TbGoodsExample example);
 

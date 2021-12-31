@@ -1,12 +1,28 @@
 package com.curriculumnetwork.pojo;
 
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbAreas {
+    /**
+     * id号码
+     */
     private Integer id;
 
+    /**
+     * 区域id
+     */
     private String areaid;
 
+    /**
+     * 区域
+     */
     private String area;
 
+    /**
+     * 城市id
+     */
     private String cityid;
 
     public Integer getId() {

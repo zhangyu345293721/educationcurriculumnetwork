@@ -5,6 +5,10 @@ import com.curriculumnetwork.pojo.TbTypeTemplateExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbTypeTemplateMapper {
     int countByExample(TbTypeTemplateExample example);
 

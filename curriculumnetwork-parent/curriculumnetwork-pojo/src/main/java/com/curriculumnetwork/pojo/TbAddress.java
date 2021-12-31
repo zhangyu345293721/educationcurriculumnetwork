@@ -3,29 +3,69 @@ package com.curriculumnetwork.pojo;
 import java.io.Serializable;
 import java.util.Date;
 
-public class TbAddress implements Serializable{
+/**
+ * @author zhangyu
+ * pojo
+ */
+public class TbAddress implements Serializable {
+    /**
+     * 地址id
+     */
     private Long id;
 
+    /**
+     * 用户名id
+     */
     private String userId;
 
+    /**
+     * 省份id
+     */
     private String provinceId;
 
+    /**
+     * 城市id
+     */
     private String cityId;
 
+    /**
+     * 区号id
+     */
     private String townId;
 
+    /**
+     * 手机号码
+     */
     private String mobile;
 
+    /**
+     * 地址
+     */
     private String address;
 
+    /**
+     * 联系方式
+     */
     private String contact;
 
+    /**
+     * 是否默认
+     */
     private String isDefault;
 
+    /**
+     * 记录信息
+     */
     private String notes;
 
+    /**
+     * 产生时间
+     */
     private Date createDate;
 
+    /**
+     * 别名
+     */
     private String alias;
 
     public Long getId() {

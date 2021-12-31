@@ -4,7 +4,10 @@ import com.curriculumnetwork.pojo.TbOrderItem;
 import com.curriculumnetwork.pojo.TbOrderItemExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbOrderItemMapper {
     int countByExample(TbOrderItemExample example);
 

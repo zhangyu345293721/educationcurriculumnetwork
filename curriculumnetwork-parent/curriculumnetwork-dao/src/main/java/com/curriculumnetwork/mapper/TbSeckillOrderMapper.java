@@ -5,6 +5,10 @@ import com.curriculumnetwork.pojo.TbSeckillOrderExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbSeckillOrderMapper {
     int countByExample(TbSeckillOrderExample example);
 

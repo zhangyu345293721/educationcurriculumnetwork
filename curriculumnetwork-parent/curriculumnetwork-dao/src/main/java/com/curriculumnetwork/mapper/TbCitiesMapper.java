@@ -4,7 +4,10 @@ import com.curriculumnetwork.pojo.TbCities;
 import com.curriculumnetwork.pojo.TbCitiesExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbCitiesMapper {
     int countByExample(TbCitiesExample example);
 

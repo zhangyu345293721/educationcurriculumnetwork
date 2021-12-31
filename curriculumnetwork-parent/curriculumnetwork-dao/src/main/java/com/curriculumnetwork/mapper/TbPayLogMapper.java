@@ -4,7 +4,10 @@ import com.curriculumnetwork.pojo.TbPayLog;
 import com.curriculumnetwork.pojo.TbPayLogExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbPayLogMapper {
     int countByExample(TbPayLogExample example);
 

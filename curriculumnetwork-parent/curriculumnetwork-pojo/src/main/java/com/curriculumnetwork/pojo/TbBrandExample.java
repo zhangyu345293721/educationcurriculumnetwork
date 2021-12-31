@@ -3,11 +3,23 @@ package com.curriculumnetwork.pojo;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbBrandExample {
+    /**
+     * 子句排序
+     */
     protected String orderByClause;
-
+    /**
+     * 是否冲突
+     */
     protected boolean distinct;
 
+    /**
+     * 标准
+     */
     protected List<Criteria> oredCriteria;
 
     public TbBrandExample() {

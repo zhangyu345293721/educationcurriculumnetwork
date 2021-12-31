@@ -1,7 +1,10 @@
 package com.curriculumnetwork.pojo;
 
 import java.io.Serializable;
-
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbContentCategory implements Serializable{
     private Long id;
 

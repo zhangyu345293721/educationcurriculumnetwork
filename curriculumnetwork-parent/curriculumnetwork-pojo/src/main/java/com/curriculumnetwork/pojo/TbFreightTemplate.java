@@ -1,7 +1,10 @@
 package com.curriculumnetwork.pojo;
 
 import java.util.Date;
-
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbFreightTemplate {
     private Long id;
 

@@ -1,5 +1,9 @@
 package com.curriculumnetwork.pojo;
 
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbProvinces {
     private Integer id;
 

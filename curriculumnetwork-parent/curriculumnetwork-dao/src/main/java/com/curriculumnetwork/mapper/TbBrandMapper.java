@@ -7,7 +7,10 @@ import org.apache.ibatis.annotations.Param;
 
 import com.curriculumnetwork.pojo.TbBrand;
 import com.curriculumnetwork.pojo.TbBrandExample;
-
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbBrandMapper {
     int countByExample(TbBrandExample example);
 

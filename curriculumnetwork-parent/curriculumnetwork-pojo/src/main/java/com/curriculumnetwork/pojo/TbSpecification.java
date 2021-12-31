@@ -2,6 +2,10 @@ package com.curriculumnetwork.pojo;
 
 import java.io.Serializable;
 
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbSpecification implements Serializable{
     private Long id;
 

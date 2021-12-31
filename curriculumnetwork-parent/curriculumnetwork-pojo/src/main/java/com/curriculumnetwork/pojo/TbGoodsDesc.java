@@ -1,7 +1,10 @@
 package com.curriculumnetwork.pojo;
 
 import java.io.Serializable;
-
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbGoodsDesc implements Serializable{
     private Long goodsId;
 

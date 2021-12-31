@@ -5,6 +5,10 @@ import com.curriculumnetwork.pojo.TbFreightTemplateExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbFreightTemplateMapper {
     int countByExample(TbFreightTemplateExample example);
 

@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbUserExample {
     protected String orderByClause;
 

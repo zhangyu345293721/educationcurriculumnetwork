@@ -5,6 +5,10 @@ import com.curriculumnetwork.pojo.TbItemExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbItemMapper {
     int countByExample(TbItemExample example);
 

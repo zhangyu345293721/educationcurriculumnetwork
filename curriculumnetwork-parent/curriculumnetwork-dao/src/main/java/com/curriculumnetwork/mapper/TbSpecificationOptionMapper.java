@@ -5,6 +5,10 @@ import com.curriculumnetwork.pojo.TbSpecificationOptionExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author zhangyu
+ *  mapper
+ */
 public interface TbSpecificationOptionMapper {
     int countByExample(TbSpecificationOptionExample example);
 

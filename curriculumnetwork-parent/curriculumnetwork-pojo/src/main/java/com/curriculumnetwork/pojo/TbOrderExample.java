@@ -4,7 +4,10 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
+/**
+ * @author zhangyu
+ * pojo
+ */
 public class TbOrderExample {
     protected String orderByClause;
 

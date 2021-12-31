@@ -5,6 +5,10 @@ import com.curriculumnetwork.pojo.TbAddressExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+/**
+ * @author zhangyu
+ * address mapper
+ */
 public interface TbAddressMapper {
     int countByExample(TbAddressExample example);
 
