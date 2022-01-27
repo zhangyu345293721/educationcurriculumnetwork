@@ -26,7 +26,6 @@
 	  </mvc:message-converters>  
 	</mvc:annotation-driven>
 	
-
 	<!-- 引用dubbo 服务 -->
 	<dubbo:application name="curriculumnetwork-portal-web" />
 	<dubbo:registry address="zookeeper://192.168.25.135:2181"/>
