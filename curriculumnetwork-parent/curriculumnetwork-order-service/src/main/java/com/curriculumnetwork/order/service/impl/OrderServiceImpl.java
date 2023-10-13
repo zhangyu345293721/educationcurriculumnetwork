@@ -53,7 +53,7 @@ public class OrderServiceImpl implements OrderService {
 	@Override
 	public PageResult findPage(int pageNum, int pageSize) {
 		PageHelper.startPage(pageNum, pageSize);		
-		Page<TbOrder> page=   (Page<TbOrder>) orderMapper.selectByExample(null);
+		Page<TbOrder> page =   (Page<TbOrder>) orderMapper.selectByExample(null);
 		return new PageResult(page.getTotal(), page.getResult());
 	}
 
@@ -78,7 +78,7 @@ public class OrderServiceImpl implements OrderService {
 		List<String> orderIdList=new ArrayList();//订单ID集合
 		double total_money=0;//总金额
 		//2.循环购物车列表添加订单
-		for(Cart  cart:cartList){
+		for(Cart cart : cartList){
 			TbOrder tbOrder=new TbOrder();
 			long orderId = idWorker.nextId();	//获取ID		
 			tbOrder.setOrderId(orderId);
@@ -95,7 +95,7 @@ public class OrderServiceImpl implements OrderService {
 			
 			double money=0;//合计数
 			//循环购物车中每条明细记录
-			for(TbOrderItem orderItem:cart.getOrderItemList()  ){
+			for(TbOrderItem orderItem : cart.getOrderItemList()  ){
 				orderItem.setId(idWorker.nextId());//主键
 				orderItem.setOrderId(orderId);//订单编号
 				orderItem.setSellerId(cart.getSellerId());//商家ID
@@ -127,8 +127,6 @@ public class OrderServiceImpl implements OrderService {
 			
 			redisTemplate.boundHashOps("payLog").put(order.getUserId(), payLog);//放入缓存 
 		}
-		
-		
 		//3.清除redis中的购物车
 		redisTemplate.boundHashOps("cartList").delete(order.getUserId());
 	}
@@ -157,13 +155,13 @@ public class OrderServiceImpl implements OrderService {
 	 */
 	@Override
 	public void delete(Long[] ids) {
-		for(Long id:ids){
-			orderMapper.deleteByPrimaryKey(id);
-		}		
+	    for(Long id : ids){
+	        orderMapper.deleteByPrimaryKey(id);
+	    }		
 	}
 	
 	
-		@Override
+        @Override
 	public PageResult findPage(TbOrder order, int pageNum, int pageSize) {
 		PageHelper.startPage(pageNum, pageSize);
 		
@@ -171,7 +169,7 @@ public class OrderServiceImpl implements OrderService {
 		Criteria criteria = example.createCriteria();
 		
 		if(order!=null){			
-						if(order.getPaymentType()!=null && order.getPaymentType().length()>0){
+			if(order.getPaymentType()!=null && order.getPaymentType().length()>0){
 				criteria.andPaymentTypeLike("%"+order.getPaymentType()+"%");
 			}
 			if(order.getPostFee()!=null && order.getPostFee().length()>0){
@@ -252,8 +250,6 @@ public class OrderServiceImpl implements OrderService {
 		}
 		
 		//3.清除缓存中的payLog
-		redisTemplate.boundHashOps("payLog").delete(payLog.getUserId());
-		
-	}
-	
+		redisTemplate.boundHashOps("payLog").delete(payLog.getUserId());	
+	}	
 }
